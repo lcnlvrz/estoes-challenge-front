@@ -23,7 +23,7 @@ const Edit = () => {
       <header className="flex bg-white flex-start w-full">
         <ul className="flex flex-col w-full">
           <li className="w-full py-2 px-5 flex items-start border border-b-2">
-            <h1 className="text-gray-400 font-semibold text-2xl">LOGO</h1>
+            <img src="https://bitbucket.org/estoes-challenges/fullstack/raw/1f381ad315a2e386bbdf6a60eb146c29a59a3336/assets/images/logo.png" />
           </li>
           <li className="w-full py-2 px-5 flex flex-row justify-between">
             <div className="flex flex-row space-x-5 items-center">

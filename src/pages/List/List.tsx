@@ -3,7 +3,6 @@ import { PlusOutlined } from "@ant-design/icons";
 import ListCard from "../../components/ListCard";
 import { Divider, Pagination } from "antd";
 import { useList } from "../../controllers/list-project.controller";
-import moment from "moment";
 import { Link } from "react-router-dom";
 
 const List = () => {
@@ -14,7 +13,7 @@ const List = () => {
       <header className="flex bg-white flex-start w-full">
         <ul className="flex flex-col w-full">
           <li className="w-full py-2 px-5 flex items-start border border-b-2">
-            <h1 className="text-gray-400 font-semibold text-2xl">LOGO</h1>
+            <img src="https://bitbucket.org/estoes-challenges/fullstack/raw/1f381ad315a2e386bbdf6a60eb146c29a59a3336/assets/images/logo.png" />
           </li>
           <li className="w-full py-2 px-5 flex flex-row justify-between">
             <h2 className="font-semibold text-black text-2xl">My Projects</h2>
